@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.common{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: none;
+}
+ul li img{
+    width: 622px;
+    height: 406px;
+}
+ul li p{
+    font-family: '幼圆';
+    font-size: 18px;
+    margin-left: 32%;
+   padding-top: 8px;
+}
+ul li:first-child{
+    display: block;
+}
+.leftbtn{
+    position: absolute;
+    background: url(./images/left1.png) no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 40px;
+    top:40%;
+}
+.rightbtn{
+    position: absolute;
+    background: url(./images/right1.png) no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 40px;
+    top:40%;
+    right: 0;
+}
+.nav{
+    position: absolute;
+    bottom: 15%;
+    left:30%;
+}
+.nav span{
+    background-color:goldenrod;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.nav span:first-child{
+    background-color: red;
+}
